@@ -1,0 +1,73 @@
+Local Settings used
+
+
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "EndpointUri": "https://cosmosdbsample.documents.azure.com:443/",
+    "PrimaryKey": "BPZF2C3Ke1234lMKjkjzHxMOWVeAZjqDgHT6RGVZZptwtXklfnXv6si817MPsQERsdRPXh2j75KefGSIZWQPFHT9VZ6yL0Q==",
+    "databaseId": "MySampleDatabase",
+    "collectionId": "Container2"
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+Sample PayLoad used  ::: 
+
+
+
+{
+	"Id":"Tyson",
+	      "LastName": "AndersenaasAssdadas123",
+       "parents": [
+        {
+          "FamilyName": "Wakefield",
+          "FirstName": "Robin"
+        },
+        {
+          "FamilyName": "Miller",
+          "FirstName": "Ben"
+        }
+        ],
+        "children": [
+        {
+          "FamilyName": "Merriam",
+          "FirstName": "Jesse",
+          "Gender": "female",
+          "Grade": 1,
+          "Pets": [
+            {
+              "GivenName": "Goofy"
+            },
+            {
+              "GivenName": "Shadow"
+            }
+          ]
+        },
+        {
+          "FamilyName": "Miller",
+          "FirstName": "Lisa",
+          "Gender": "female",
+          "Grade": 8
+        }
+      ],
+      "Address": {
+        "State": "FL",
+        "County": "Miami",
+        "City": "Miami",
+        "ZipCode": 33011
+      },
+      "isRegistered": false
+}
+
